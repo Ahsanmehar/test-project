@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import TechIcon from "../../components/TechIcon";
 import InternshipReviewCard from "./InternshipReviewCard";
 import VideoModal from "./VideoModal";
-import { InternesData } from "./internesData.js";
+import internesData from "./internesData.js";
 
 const InternesTestimonials = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -152,7 +152,7 @@ const InternesTestimonials = () => {
             }, 50);
           }}
         >
-          {InternesData.map((item) => (
+          {internesData.map((item) => (
             <SwiperSlide key={item.id} className="!h-auto">
               <div className="h-full flex items-end pb-4">
                 <InternshipReviewCard
