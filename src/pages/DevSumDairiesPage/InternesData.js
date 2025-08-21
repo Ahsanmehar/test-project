@@ -3,7 +3,7 @@ import video2 from "../../assets/videos/student1.mp4";
 import video3 from "../../assets/videos/student2.mp4";
 import video4 from "../../assets/videos/student3.mp4";
 import video5 from "../../assets/videos/student4.mp4";
-const internesData = [
+export const internesData = [
   {
     id: 1,
     companyImage:
@@ -122,5 +122,3 @@ const internesData = [
   },
 ];
 
-
-export default internesData

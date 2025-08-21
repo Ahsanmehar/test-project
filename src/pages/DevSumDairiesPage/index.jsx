@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import TechIcon from "../../components/TechIcon";
 import InternshipReviewCard from "./InternshipReviewCard";
 import VideoModal from "./VideoModal";
-import internesData from "./internesData";
+import { internesData } from "./internesData";
 
 const InternesTestimonials = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
