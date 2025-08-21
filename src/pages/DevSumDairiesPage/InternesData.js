@@ -1,9 +1,8 @@
-import video1 from "../../assets/videos/interneevideo.mp4"
-import video2 from "../../assets/videos/student1.mp4"
-import video3 from "../../assets/videos/student2.mp4"
-import video4 from "../../assets/videos/student3.mp4"
-import video5 from "../../assets/videos/student4.mp4"
-// import video2 from "../../assets/videos/"
+import video1 from "../../assets/videos/interneevideo.mp4";
+import video2 from "../../assets/videos/student1.mp4";
+import video3 from "../../assets/videos/student2.mp4";
+import video4 from "../../assets/videos/student3.mp4";
+import video5 from "../../assets/videos/student4.mp4";
 export const InternesData = [
   {
     id: 1,
@@ -12,8 +11,7 @@ export const InternesData = [
     studentImage:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
     studentName: "Ahmed fazil",
-    videoUrl:
-      video1,
+    videoUrl: video1,
     duration: "3 months",
     companyName: "DevSum",
     technologies: [
@@ -40,7 +38,7 @@ export const InternesData = [
     studentImage:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
     studentName: "kanza Farooq",
-    videoUrl:  video3,
+    videoUrl: video3,
     duration: "6 months",
     companyName: "DevSum",
     technologies: [
@@ -63,8 +61,7 @@ export const InternesData = [
     studentImage:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
     studentName: "Muhammad Naqi",
-    videoUrl:
-      video2,
+    videoUrl: video2,
     duration: "4 months",
     companyName: "DevSum",
     technologies: [
@@ -86,8 +83,7 @@ export const InternesData = [
     studentImage:
       "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
     studentName: "Laiba Zulfiqar",
-    videoUrl:
-      video5,
+    videoUrl: video5,
     duration: "5 months",
     companyName: "DevSum",
     technologies: [
@@ -109,8 +105,7 @@ export const InternesData = [
     studentImage:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
     studentName: "Ahmed hassan",
-    videoUrl:
-      video4,
+    videoUrl: video4,
     duration: "3 months",
     companyName: "DevSum",
     technologies: [

@@ -6,7 +6,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import TechIcon from "../../components/TechIcon";
 import InternshipReviewCard from "./InternshipReviewCard";
-import { InternesData } from "./internesData";
+import { InternesData } from "./internesData.js";
 import VideoModal from "./VideoModal";
 
 const InternesTestimonials = () => {
