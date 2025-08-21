@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "installCommand": "npm install --no-optional=false"
+    "postinstall": "npm rebuild rollup --no-optional=false"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.1",
