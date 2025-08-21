@@ -12,7 +12,7 @@ import {
   Quote,
 } from "lucide-react";
 
-const Card = ({ data, type, onButtonClick, onSecondaryButtonClick }) => {
+const Card = ({ data, type, onButtonClick }) => {
   const imageClasses =
     "w-full object-cover group-hover:scale-105 transition-transform duration-500";
   const cardClasses =

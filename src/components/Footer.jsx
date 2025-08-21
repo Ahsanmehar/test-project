@@ -43,26 +43,6 @@ const Footer = () => {
     },
   ];
 
-  const handleQuickLinkClick = (link) => {
-    if (link.type === "scroll") {
-      if (window.location.pathname !== "/") {
-        navigate("/");
-        setTimeout(() => {
-          const element = document.getElementById(link.href.replace("#", ""));
-          if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
-          }
-        }, 100);
-      } else {
-        const element = document.getElementById(link.href.replace("#", ""));
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
-        }
-      }
-    } else if (link.type === "page") {
-      navigate(link.href);
-    }
-  };
 
   const handleCourseClick = (path) => {
     navigate(path);

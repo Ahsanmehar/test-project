@@ -10,7 +10,6 @@ const Counter = ({ endValue, duration = 2000, inView}) => {
   useEffect(() => {
     if(!inView || hasAnimated) return;
     const target = parseInt(endValue.replace(/\D/g, ''));
-    let start = 0;
     let startTime = null;
 
     const step = (timestamp) => {

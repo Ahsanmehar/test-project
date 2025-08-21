@@ -19,7 +19,7 @@ const AuthForm = ({ type, onToggle }) => {
   useEffect(() => {
     setFormData(initialState);
     setErrors({});
-  }, [type]);
+  }, []);
 
   const fields = isLogin
     ? [
@@ -95,7 +95,7 @@ const AuthForm = ({ type, onToggle }) => {
         {isLogin ? "Login" : "Sign Up"}
       </h2>
 
-      {fields.map(({ label, name, type, Icon }) => {
+      {fields.map(({ label, name, type }) => {
         const hasError = !!errors[name];
         const isFilled = formData[name];
 

@@ -1,8 +1,10 @@
 import { ChevronDown } from "lucide-react";
 import { aboutFeatures } from "../data/aboutData";
 import Card from "./Card";
+import { useNavigate } from "react-router-dom";
 
 export default function About() {
+  const Navigate = useNavigate();
   return (
     <section id="about" className="py-20 bg-[#002140]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -81,7 +83,7 @@ export default function About() {
           data-aos-duration="1000"
         >
           <button
-            onClick={() => navigate("/devsumdiaries")}
+            onClick={() => Navigate("/devsumdiaries")}
             className="group px-8 py-4 border border-slate-600 text-slate-300 rounded-xl hover:bg-slate-700 hover:border-slate-500 hover:text-white transition-all duration-300 flex items-center justify-center gap-2 text-lg font-semibold mx-auto transform hover:scale-105"
           >
             Explore Our Journey
